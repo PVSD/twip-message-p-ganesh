@@ -19,6 +19,7 @@ public class Main {
             temp = kb.next();
             text = temp;
             Message m = new Message(num, text, System.currentTimeMillis());
+            MessageList.sendMessage(m);
 
 
         }
